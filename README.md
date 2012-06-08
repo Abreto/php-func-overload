@@ -33,13 +33,13 @@ _()函数原型
 	);
 	_(
 	'hello',
-	'$b:string',
-	'echo "Hello $b.\n";'
+	'$a:integer,$b="ab":string',
+	'echo "$a. Hello $b.\n";'
 	);
 	// -
 	hello();	// 第一个函数原型
 	hello(2);	// 第二个函数原型
-	hello('World');	// 第三个函数原型
+	hello(12, 'World');	// 第三个函数原型
 
 
 ### 参考:
