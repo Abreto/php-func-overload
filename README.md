@@ -6,7 +6,7 @@
 		require_once('php-func-overload.php');
 
 - 定义函数:
-_函数原型
+_()函数原型
 
 		_(string $name, string $args, string $code);
 
