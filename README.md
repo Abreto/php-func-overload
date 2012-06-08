@@ -19,6 +19,7 @@ _函数原型
 ---------------------------------
 
 ## 示例:
+
 	require_once('php-func-overload.php');
 	_(
 	'hello',
@@ -41,15 +42,15 @@ _函数原型
 	hello('World');	// 第三个函数原型
 
 
-- 参考:
+### 参考:
 
 	/**
 	* 整数:integer, 浮点数:double, 布尔:boolean, 字符串:string, 资源:resource
 	* 数组:array, 对象:object, 未知类型:unknown type;
 	*/
-
-
-
+  
+  
+  
 -----------------------------------------
-by Abreto.
+by Abreto.  
 at 2012-06-08 13:11
